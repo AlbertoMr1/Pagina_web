@@ -1,0 +1,21 @@
+.active{
+    text-decoration: underline;
+}
+
+.contenedor{
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.pie-de-pagina{
+    border-top: 1px grey solid;
+    padding-top: 10px;
+}
+
+.iconos{
+    width: 50px;
+}
+
+.derechos-autor{
+    text-align: center;
+}

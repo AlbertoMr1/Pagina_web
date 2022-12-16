@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Iniciar sesión</title>
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+        />
+        <link rel="stylesheet" type="text/css" href="../assets/css/style.css"/>
+        <link rel="stylesheet" type="text/css" href="../assets/css/inicioSesion.css"/>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg bg-light sticky-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"> Proyecto </a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div
+                    class="collapse navbar-collapse"
+                    id="navbarSupportedContent"
+                >
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a
+                            class="nav-link"
+                            aria-current="page"
+                            href="index.html"
+                            >Home</a
+                        >
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#acercaDeMi">Acerca de mí</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="blog.html" target="_blank">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                    <div class="d-flex">
+                        <a href="#" class="btn">
+                            Iniciar sesion
+                        </a>
+                        <a href="registrarse.html" class="btn btn-outline-success">
+                            Registrarse
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container contenedor">
+            <h2 class="titulo">Inicio de sesión</h2>
+            <div class="row">
+                <div class="col-lg-8">
+                    <form>
+                        <div class="mb-3">
+                          <label for="inputEmail" class="form-label">Correo electrónico:</label>
+                          <input type="email" class="form-control" id="inputEmail">
+                        </div>
+                        <div class="mb-3">
+                          <label for="inputPassword" class="form-label">Contraseña:</label>
+                          <input type="password" class="form-control" id="inputPassword">
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="mostrarPassword">
+                            <label class="form-check-label" for="mostrarPassword">Mostrar contraseña</label>
+                        </div>
+                        <div class="mb-3 form-check">
+                          <input type="checkbox" class="form-check-input" id="recordar">
+                          <label class="form-check-label" for="recordar">Recordar inicio de sesión</label>
+                        </div>
+                        <a href="registrarse.html"><p>¿Aun no tienes cuenta?, Crea una.</p></a>
+                        <button type="submit" class="btn btn-primary">Iniciar sesión</button>
+
+                        <h4 class="tituloRedSocial">Iniciar sesión con:</h4>
+                        <div class="d-flex justify-content-around">
+                            <a class="btn btn-light facebook">
+                                <img src="../assets/images/facebook.ico" alt="" class="iconos">
+                                <p class="registroFacebook">Registrarse con Facebok</p>
+                            </a>
+                            <div class="btn btn-light google">
+                                <img src="../assets/images/google.ico" alt="" class="iconos">
+                                <p class="registroGoogle">Registrarse con Google</p>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col imagen">
+                    <img src="../assets/images/inicioSesion.jpg" alt="" class="img-thumbnail">
+                </div>
+            </div>
+        </div>
+
+        <script
+            type="text/javascript"
+            src="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        ></script>
+    </body>
+	<footer class="pie-de-pagina">
+        <div class="row">
+            <div class="col-4"></div>
+            <div class="col-1 d-flex justify-content-center">
+                <a href="https://es-la.facebook.com/sergio.peraltamorales.1">
+                    <img src="../assets/images/facebook.ico" alt="facebook-logo" class="iconos">
+                </a>
+            </div>
+            <div class="col-2 d-flex justify-content-center">
+                <a href="https://ovallehoy.cl/">
+                    <img src="../assets/images/web.ico" alt="web-logo" class="iconos">
+                </a>
+            </div>
+            <div class="col-1 d-flex justify-content-center">
+                <a href="https://www.linkedin.com/in/sergio-peralta-b1598169/?originalSubdomain=cl">
+                    <img src="../assets/images/linkedin.ico" alt="linkedin-logo" class="iconos">
+                </a>
+            </div>
+            <div class="col-4"></div>
+        </div>
+        <p class="derechos-autor">© Todos los derechos resevados a Luis Alberto Martinez Ramirez y Donovan Carrasco Manjarres</p>
+	</footer>
+</html>

@@ -1,0 +1,36 @@
+.contenedor{
+    padding-top: 6%;
+}
+
+.titulo ,.tituloRedSocial{
+    margin-bottom: 2%;
+}
+
+.tituloRedSocial{
+    margin-top: 2%;
+}
+
+.facebook, .google{
+    display: flex;
+    align-items: center;
+    background-color: #3f65a6;
+    color: #f4f4f4;
+    margin-top: 1rem;
+    width: 350px;
+}
+
+.google{
+    background-color: #f4f4f4;
+    color: #343434;
+}
+
+.registroFacebook, .registroGoogle{
+    margin: 0;
+    padding-left: 3em;
+}
+
+@media (max-width: 991px) {
+    .imagen{
+        display: none;
+    }
+}
